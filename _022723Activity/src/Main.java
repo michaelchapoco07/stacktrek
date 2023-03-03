@@ -144,5 +144,7 @@ public class Main {
             hasEmailCorrectPattern = emailCorrectPattern.find();
 
         }
+        System.out.println(stringDate.substring(0,4) + "-" + birthday.substring(5,7)+(0)+(1)+"-"+lastName.substring(0,1).toLowerCase());
     }
+
 }
